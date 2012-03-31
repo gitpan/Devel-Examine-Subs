@@ -1,0 +1,26 @@
+---
+abstract: 'Get names of subroutines containing certain text'
+author:
+  - 'Steve Bertrand <steveb@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.4
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4, CPAN::Meta::Converter version 2.120530'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Devel-Examine-Subs
+provides:
+  Devel::Examine::Subs:
+    file: lib/Devel/Examine/Subs.pm
+    version: 0.06
+requires:
+  perl: 5.006
+resources:
+  bugtracker: https://bitbucket.org/spek/devel-examine-subs/issues
+  license: http://dev.perl.org/licenses/
+  repository: https://bitbucket.org/spek/devel-examine-subs
+version: 0.06

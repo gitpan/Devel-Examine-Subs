@@ -1,0 +1,18 @@
+Revision history for Devel-Examine::Subs
+
+0.06    20120330
+        - changed name of project from Devel::ExamineSubs
+          to Devel::Examine::Subs
+
+0.05    20120330
+        - changed API to all public calls to use href params
+
+0.02    20120330
+        - added tests
+        - dies() if number of params is not correct (consider
+          changing this internally)
+        - created repository on bitbucket
+
+0.01    20120330 
+        First version, released on an unsuspecting world.
+
