@@ -1,15 +1,12 @@
 package Devel::Examine::Subs;
 
-use 5.10.0;
 use strict;
 use warnings;
 
-our $VERSION = '0.10';
+our $VERSION = '0.13';
 
 sub new {
-
-    my $class = shift;
-    return bless {}, $class;
+    return bless {}, shift;
 }
 sub has {
     my $self    = shift;
